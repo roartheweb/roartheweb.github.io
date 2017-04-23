@@ -2070,21 +2070,21 @@ div.index_withme_contact-button-container
     left: 30vw;
 }
 
-@media (max-width: 696px)
-{
-    .index_footer_stepanltextcontainer
-    {
-        bottom: 6vh;
-        font-size: 0.5em;
-    }
-}
-
 @media (max-width: 1000px)
 {
     .index_footer_stepanltextcontainer
     {
         left: 10vw;
         bottom: 14vh;
+    }
+}
+
+@media (max-width: 696px)
+{
+    .index_footer_stepanltextcontainer
+    {
+        bottom: 6vh;
+        font-size: 0.5em;
     }
 }
 
@@ -2974,16 +2974,12 @@ div.index_withme_contact-button-container
 
 @media (max-width: 500px)
 {
-@media (max-width: 500px)
-{
     .index_prevproj_bgimage_woody_img
     {
         background-image: url('img/mockups/woody_mockup_lowres.png');
-        background-position: 180% center;
-        width:50vw
+        background-position: 190% center;
+        width: 50vw;
     }
-}
-
 }
 
 .feature_diagonal_sectionpaddingtop
