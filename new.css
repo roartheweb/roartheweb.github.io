@@ -2595,9 +2595,8 @@ div.index_withme_contact-button-container
 {
     background-color: black;
     position: relative;
-    border:8px solid black;
+    border: 8px solid black;
 }
-
 
 .index_process_brandidentity
 {
@@ -2664,7 +2663,7 @@ div.index_withme_contact-button-container
 
 .index_process_rightarrowicon
 {
-    color: #FFC04C;
+    color: #71603A;
     font-size: 4em;
     margin: 0.2em;
     -ms-transform: rotate(90deg);
@@ -2973,13 +2972,18 @@ div.index_withme_contact-button-container
     }
 }
 
-@media (max-width: 400px)
+@media (max-width: 500px)
+{
+@media (max-width: 500px)
 {
     .index_prevproj_bgimage_woody_img
     {
         background-image: url('img/mockups/woody_mockup_lowres.png');
-        background-position: 170% center;
+        background-position: 180% center;
+        width:50vw
     }
+}
+
 }
 
 .feature_diagonal_sectionpaddingtop
@@ -2994,6 +2998,7 @@ div.index_withme_contact-button-container
     bottom: -0.4em;
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
+    color: #FFC04C;
 }
 
 .index_process_codedprototype
@@ -3178,7 +3183,7 @@ a.quote_binfo_uploadbtn
 
 .index_process_leftarrowicon
 {
-    color: #FFC04C;
+    color: #71603A;
     font-size: 4em;
     margin: 0.2em;
     -ms-transform: rotate(90deg);
