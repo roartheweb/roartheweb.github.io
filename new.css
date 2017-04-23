@@ -2974,12 +2974,16 @@ div.index_withme_contact-button-container
 
 @media (max-width: 500px)
 {
+@media (max-width: 500px)
+{
     .index_prevproj_bgimage_woody_img
     {
         background-image: url('img/mockups/woody_mockup_lowres.png');
-        background-position: 190% center;
-        width: 50vw;
+        background-position: 200% center;
+        width: 40vw;
     }
+}
+
 }
 
 .feature_diagonal_sectionpaddingtop
