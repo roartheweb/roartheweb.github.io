@@ -1,7 +1,7 @@
 $(document).ready(function(){
       if (window.location.hash == "#collapse11") {
         $('html, body').animate({
-           scrollTop: $("#moreInfo").offset().top
+           scrollTop: $("#collapse11").offset().top
          }, 1853);
       }
    });
