@@ -870,7 +870,7 @@ a.faq_a_link:hover
     width: 100vw;
     height: 75vh;
     background-size: cover;
-    background-image: url('img/orangesbg.png');
+    background-image: url('img/orangesbg_lowres.png');
 }
 
 @media (max-width: 400px)
@@ -2891,7 +2891,7 @@ div.index_withme_contact-button-container
 
 .index_orangesdiv_bg
 {
-    background-image: url('img/orangesbg.png');
+    background-image: url('img/orangesbg_lowres.png');
     background-size: cover;
     background-attachment: fixed;
     height: 50vh;
@@ -3393,4 +3393,3 @@ a.quote_binfo_uploadbtn
     top: 0;
     left: 0;
 }
-
