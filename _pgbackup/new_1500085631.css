@@ -1,3 +1,5 @@
+
+
 .index_reimagine_div_orangebg {
   background-color: #ffc04c;
   display: -ms-flexbox;
@@ -99,7 +101,7 @@ a .quote_nav_a
     left: 0;
     z-index: 1;
     transition: all .5s;
-    background-image: url('img/pexels-wild_lowres.png');
+    background-image: url('img/pexels-wild.png');
     background-position: center top;
 }
 
