@@ -57,7 +57,7 @@ a .quote_nav_a
 /*grey backgr and color red the nav buttons upon hover*/
 
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > li > a.pg-state-hover,.navbar-default .navbar-nav > li > a.pg-state-hover,.navbar-default .navbar-nav > li > a.pg-state-focus
+.navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > li > a.pg-state-focus,.navbar-default .navbar-nav > li > a.pg-state-hover,.navbar-default .navbar-nav > li > a.pg-state-focus
 {
     color: #b30000;
 }
@@ -127,7 +127,7 @@ a .quote_nav_a
 /*zoom-in of the cup background upon hover*/
 
 .jumbotron-billboard:hover .img_back,
-.jumbotron-billboard:focus .img_back,.jumbotron-billboard.pg-state-hover .img_back,.jumbotron-billboard.pg-state-hover .img_back,.jumbotron-billboard.pg-state-focus .img_back
+.jumbotron-billboard:focus .img_back,.jumbotron-billboard.pg-state-focus .img_back,.jumbotron-billboard.pg-state-hover .img_back,.jumbotron-billboard.pg-state-focus .img_back
 {
     -ms-transform: scale(1.2);
     transform: scale(1.2);
@@ -168,7 +168,7 @@ a .quote_nav_a
 }
 
 .jumbotron_button:hover,
-.center_portrait_button:hover,.jumbotron_button.pg-state-hover,.jumbotron_button.pg-state-hover,.center_portrait_button.pg-state-hover
+.center_portrait_button:hover,.center_portrait_button.pg-state-hover,.jumbotron_button.pg-state-hover,.center_portrait_button.pg-state-hover
 {
     background: #f1f1f1;
     border-color: #C66A3D;
@@ -500,7 +500,7 @@ a .quote_nav_a
 {
     padding-right: 25px;
     padding-top: 9px;
-    height: 40px;
+    height: 34px;
     border: 1px solid #FFD27F;
     border-radius: 2%;
     background: black;
@@ -517,7 +517,6 @@ a .quote_nav_a
     background: black;
     color: #FFD27F;
     padding: 2px 10px;
-    height: 40px;
 }
 
 .faq_main_title
@@ -979,7 +978,7 @@ a.faq_a_link:hover,a.faq_a_link.pg-state-hover
 }
 
 .quote_collapse_li_border:hover .quote_collapse_list_icon,
-.quote_collapse_li_border:hover .quote_collapse_webicon,.quote_collapse_li_border.pg-state-hover .quote_collapse_list_icon,.quote_collapse_li_border.pg-state-hover .quote_collapse_list_icon,.quote_collapse_li_border.pg-state-hover .quote_collapse_webicon
+.quote_collapse_li_border:hover .quote_collapse_webicon,.quote_collapse_li_border.pg-state-hover .quote_collapse_webicon,.quote_collapse_li_border.pg-state-hover .quote_collapse_list_icon,.quote_collapse_li_border.pg-state-hover .quote_collapse_webicon
 {
     color: black;
 }
@@ -1267,7 +1266,7 @@ a.faq_a_link:hover,a.faq_a_link.pg-state-hover
 
 a:hover,
 a:link,
-a:visited,a.pg-state-hover,a.pg-state-hover,a.pg-state-visited
+a:visited,a.pg-state-visited,a.pg-state-hover,a.pg-state-visited
 {
     text-decoration: none;
     color: white;
@@ -1380,7 +1379,7 @@ div .index_footer_roarthewebatgmailcom_link
 }
 
 .quote_howwillthis_titletextsize:hover,
-.quote_howwillthis_titletextsize:visited,.quote_howwillthis_titletextsize.pg-state-hover,.quote_howwillthis_titletextsize.pg-state-hover,.quote_howwillthis_titletextsize.pg-state-visited {
+.quote_howwillthis_titletextsize:visited,.quote_howwillthis_titletextsize.pg-state-visited,.quote_howwillthis_titletextsize.pg-state-hover,.quote_howwillthis_titletextsize.pg-state-visited {
   color: #f7f1f1;
   font-weight: 900;
   text-shadow: 3px 3px 10px #707070;
@@ -2714,7 +2713,6 @@ div.index_withme_contact-button-container
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-      color: #efefef;
 }
 
 .index_prevproj_testimonials_smallp
@@ -3390,24 +3388,4 @@ a.quote_binfo_uploadbtn
     position: absolute;
     top: 0;
     left: 0;
-}
-.index_fb_icon {
-font-size: 1.7em;
-margin: 0.3em;
-}
-.index_envelope_icon {
-font-size: 1.3em;
-margin-right: 0.2em;
-}
-.index_li_footer_flex {
-display: flex;
-flex-flow: row nowrap;
-justify-content: center;
-align-items: center;
-}
-.index_ul_footer_flex {
-display: flex;
-flex-flow: column;
-justify-content: center;
-align-items: flex-start;
 }

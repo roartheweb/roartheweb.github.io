@@ -500,7 +500,7 @@ a .quote_nav_a
 {
     padding-right: 25px;
     padding-top: 9px;
-    height: 40px;
+    height: 34px;
     border: 1px solid #FFD27F;
     border-radius: 2%;
     background: black;
@@ -517,7 +517,6 @@ a .quote_nav_a
     background: black;
     color: #FFD27F;
     padding: 2px 10px;
-    height: 40px;
 }
 
 .faq_main_title
@@ -2714,7 +2713,6 @@ div.index_withme_contact-button-container
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-      color: #efefef;
 }
 
 .index_prevproj_testimonials_smallp
@@ -3404,10 +3402,4 @@ display: flex;
 flex-flow: row nowrap;
 justify-content: center;
 align-items: center;
-}
-.index_ul_footer_flex {
-display: flex;
-flex-flow: column;
-justify-content: center;
-align-items: flex-start;
 }
