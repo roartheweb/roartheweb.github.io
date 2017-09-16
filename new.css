@@ -99,7 +99,7 @@ a .quote_nav_a
     left: 0;
     z-index: 1;
     transition: all .5s;
-    background-image: url('img/pexels-wild_lowres.png');
+    background-image: url('img/pexels-wild_lowres.jpg');
     background-position: center;
 }
 
@@ -1868,7 +1868,7 @@ div.index_withme_contact-button-container
 }
 
 .index_mountaindiv_bg {
-  background-image: url('img/pexels-wild_lowres.png');
+  background-image: url('img/pexels-wild_lowres.jpg');
   background-attachment: fixed;
   background-position: top center;
   background-repeat: no-repeat;
