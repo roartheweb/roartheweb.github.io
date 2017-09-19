@@ -102,7 +102,7 @@ a .quote_nav_a
     background-image: url('img/pexels-wild_lowres.jpg');
     background-position: center;
 }
-/*
+
 @media (max-width: 400px)
 {
     .jumbotron-billboard .img_back
@@ -110,7 +110,7 @@ a .quote_nav_a
         background-image: url('img/pexels-wild_lowres.png');
     }
 }
-*/
+
 /*Jumbotron container */
 
 /*give the most important z-value to make it not translucent*/
@@ -125,15 +125,14 @@ a .quote_nav_a
 }
 
 /*zoom-in of the cup background upon hover*/
-@media (min-width: 400px)
-{
+
 .jumbotron-billboard:hover .img_back,
 .jumbotron-billboard:focus .img_back,.jumbotron-billboard.pg-state-hover .img_back,.jumbotron-billboard.pg-state-hover .img_back,.jumbotron-billboard.pg-state-focus .img_back
 {
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
-}
+
 /* "...Welcome" text styling*/
 
 .hero_title_text
@@ -449,7 +448,7 @@ a .quote_nav_a
     background-attachment: fixed;
     position: relative;
 }
-/*
+
 @media (max-width: 400px)
 {
     .bottom-form_background_img
@@ -457,7 +456,7 @@ a .quote_nav_a
         background-image: url('img/letter-mail-mailbox-postbox_new_lowres.png');
     }
 }
-*/
+
 .form_bottom_textarea
 {
     min-height: 10em;
@@ -845,7 +844,6 @@ a.faq_a_link:hover,a.faq_a_link.pg-state-hover
     .quote_vertline_li
     {
         position: relative;
-
         width: 100vw;
         background-color: transparent;
     }
@@ -1886,7 +1884,7 @@ div.index_withme_contact-button-container
       align-items: center;
   height: 30vh;
 }
-/*
+
 @media (max-width: 400px)
 {
     .index_mountaindiv_bg
@@ -1894,7 +1892,7 @@ div.index_withme_contact-button-container
         background-image: url('img/pexels-wild_lowres.png');
     }
 }
-*/
+
 .index_imanaspiring_p
 {
     text-align: center;
@@ -2127,7 +2125,6 @@ div.index_withme_contact-button-container
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between;
-      background-color: #efefef;
 }
 
 .index_prevprojects_sidetext:hover .index_prevproj_subtitle_woodyworks,.index_prevprojects_sidetext.pg-state-hover .index_prevproj_subtitle_woodyworks
@@ -2189,11 +2186,10 @@ div.index_withme_contact-button-container
 .index_prevproj_titleh3
 {
     color: #ffd27f;
-    font-size: 9vw;
+    font-size: 9em;
     line-height: 0.5;
     text-align: center;
     font-weight: 700;
-    position: relative;
 }
 
 @media (max-width: 650px)
@@ -2207,12 +2203,11 @@ div.index_withme_contact-button-container
 .index_prevproj_h2_projects
 {
     color: #ffd27f;
-    font-size: 9vw;
+    font-size: 9em;
     line-height: 0.5;
     text-align: center;
     font-weight: 700;
     letter-spacing: -3.5px;
-    position: relative;
 }
 
 @media (max-width: 650px)
@@ -2225,7 +2220,8 @@ div.index_withme_contact-button-container
 
 .index_prevproj_section_margin
 {
-    padding-top: 40em;
+    padding-top: 40vh;
+    background-color: #efefef;
 }
 
 .index_prevproj_bgimage_oksanaglobades
@@ -3416,18 +3412,21 @@ justify-content: center;
 align-items: flex-start;
 }
 .index_design_section {
-background: url("./img/logo/bearsmall_bkg3.png");
-background-position: center;
-background-size: contain;
-background-repeat: repeat-y;
+background: url("./img/logo/bearsmall_bkg.png");
+background-position: right;
+background-repeat: repeat-x;
+height: 200px;
 width: 100vw;
-padding: 10em 0;
 }
 .index_design_section_2 {
 background-position: left;
 }
 .index_design_div_parent {
 position: absolute;
+}
+.index_dd_section {
+position: relative;
+height: 200vh;
 }
 .index_dd_h3 {
 font-family: 'Lato', Helvetica, Arial, sans-serif;
@@ -3442,7 +3441,6 @@ flex-flow: column;
 justify-content: space-around;
 align-items: center;
 padding-top: 10vw;
-padding-bottom: 10vw;
 }
 
 
@@ -3462,15 +3460,17 @@ position: relative;
 z-index: 11;
 }
 .index_dd_container {
+position: relative;
+z-index: 1;
 margin: 9em 0;
 display: flex;
-padding: ;
 }
 .index_dd_p {
 font-size: 1.5em;
 font-family: 'Lato', Helvetica, Arial, sans-serif;
 color: #626262;
 width: 20vw;
+margin: 1em 3em;
 }
 .index_dd_circleicon {
 position: relative;
@@ -3494,7 +3494,7 @@ animation:rot 3s linear reverse infinite }
 	from {
 		transform: rotate(0deg)
 		           translate(-10px)
-
+               
 
 		           rotate(0deg);
 	}

@@ -2127,7 +2127,6 @@ div.index_withme_contact-button-container
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between;
-      background-color: #efefef;
 }
 
 .index_prevprojects_sidetext:hover .index_prevproj_subtitle_woodyworks,.index_prevprojects_sidetext.pg-state-hover .index_prevproj_subtitle_woodyworks
