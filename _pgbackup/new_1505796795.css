@@ -439,7 +439,7 @@ a .quote_nav_a
 .bottom-form_background_img
 {
     width: 100vw;
-    height: 120vh;
+    height: 190vh;
     background-size: cover;
     overflow: hidden;
     padding: 9vw 10vw;
@@ -3163,7 +3163,7 @@ a.quote_binfo_uploadbtn
 
 .index_footer_section_height
 {
-    height: 120vh;
+    height: 190vh;
     width: 100vw;
     position: relative;
     z-index: 1;
@@ -3426,7 +3426,7 @@ position: absolute;
 }
 .index_dd_section {
 position: relative;
-height: 200vh;
+height: 300vh;
 }
 .index_dd_h3 {
 font-family: 'Lato', Helvetica, Arial, sans-serif;
@@ -3494,14 +3494,14 @@ animation:rot 3s linear reverse infinite }
 	from {
 		transform: rotate(0deg)
 		           translate(-10px)
-               
+               skewY(25deg)
 
 		           rotate(0deg);
 	}
 	to {
 		transform: rotate(360deg)
 		           translate(-10px)
-
+               skewY(25deg)
 
 		           rotate(-360deg);
 	}
@@ -3543,11 +3543,4 @@ z-index: 20;
 color: black;
 font-size: 2em;
 animation: dollar_down 3s infinite;
-}
-.index_body {
-}
-.index_designedby {
-display: flex;
-flex-flow: row nowrap;
-align-items: center;
 }

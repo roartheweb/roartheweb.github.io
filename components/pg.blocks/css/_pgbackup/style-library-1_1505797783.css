@@ -13,7 +13,9 @@ Version: 1.0
 
 body
 {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;overflow-x: hidden;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #333333;
+    background: #ffffff;overflow-x: hidden;
     /*text-rendering: optimizeLegibility;*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

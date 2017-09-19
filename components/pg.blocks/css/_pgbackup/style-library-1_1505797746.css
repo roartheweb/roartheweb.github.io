@@ -13,7 +13,10 @@ Version: 1.0
 
 body
 {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;overflow-x: hidden;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #333333;
+    background: #ffffff;
+    overflow-x: hidden;
     /*text-rendering: optimizeLegibility;*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -1856,7 +1859,7 @@ fieldset[disabled] .form-control
 .pagination > li > a:hover,
 .pagination > li > span:hover,
 .pagination > li > a:focus,
-.pagination > li > span:focus,.pagination > li > a.pg-state-hover,.pagination > li > a.pg-state-hover,.pagination > li > a.pg-state-focus,.pagination > li > a.pg-state-hover,.pagination > li > span.pg-state-hover,.pagination > li > a.pg-state-focus,.pagination > li > span.pg-state-focus
+.pagination > li > span:focus,.pagination > li > span.pg-state-hover,.pagination > li > a.pg-state-hover,.pagination > li > a.pg-state-focus,.pagination > li > a.pg-state-hover,.pagination > li > span.pg-state-hover,.pagination > li > a.pg-state-focus,.pagination > li > span.pg-state-focus
 {
     color: #16A085;
 }
@@ -1866,7 +1869,7 @@ fieldset[disabled] .form-control
 .pagination > .active > a:hover,
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
-.pagination > .active > span:focus,.pagination > .active > a.pg-state-hover,.pagination > .active > a.pg-state-hover,.pagination > .active > a.pg-state-focus,.pagination > .active > a.pg-state-hover,.pagination > .active > span.pg-state-hover,.pagination > .active > a.pg-state-focus,.pagination > .active > span.pg-state-focus
+.pagination > .active > span:focus,.pagination > .active > span.pg-state-hover,.pagination > .active > a.pg-state-hover,.pagination > .active > a.pg-state-focus,.pagination > .active > a.pg-state-hover,.pagination > .active > span.pg-state-hover,.pagination > .active > a.pg-state-focus,.pagination > .active > span.pg-state-focus
 {
     background-color: #1ABC9C;
     border-color: #16A085;
@@ -1877,7 +1880,7 @@ fieldset[disabled] .form-control
 .pagination > .disabled > span:focus,
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
-.pagination > .disabled > a:focus,.pagination > .disabled > span.pg-state-hover,.pagination > .disabled > span.pg-state-hover,.pagination > .disabled > a.pg-state-hover,.pagination > .disabled > span.pg-state-hover,.pagination > .disabled > span.pg-state-focus,.pagination > .disabled > a.pg-state-hover,.pagination > .disabled > a.pg-state-focus
+.pagination > .disabled > a:focus,.pagination > .disabled > span.pg-state-focus,.pagination > .disabled > span.pg-state-hover,.pagination > .disabled > a.pg-state-hover,.pagination > .disabled > span.pg-state-hover,.pagination > .disabled > span.pg-state-focus,.pagination > .disabled > a.pg-state-hover,.pagination > .disabled > a.pg-state-focus
 {
     color: #999;
 }

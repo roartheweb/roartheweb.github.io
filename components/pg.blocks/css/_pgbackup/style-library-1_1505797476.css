@@ -13,7 +13,10 @@ Version: 1.0
 
 body
 {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;overflow-x: hidden;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #333333;
+    background: #ffffff;
+    overflow-x: hidden;
     /*text-rendering: optimizeLegibility;*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -1228,7 +1231,7 @@ p .btn
 }
 
 .btn-outline.outline-light:hover,
-.icon.outline-light:hover,.btn-outline.outline-light.pg-state-hover,.btn-outline.outline-light.pg-state-hover,.icon.outline-light.pg-state-hover
+.icon.outline-light:hover,.icon.outline-light.pg-state-hover,.btn-outline.outline-light.pg-state-hover,.icon.outline-light.pg-state-hover
 {
     color: #2c3e50;
     background: #ffffff;
@@ -1243,7 +1246,7 @@ p .btn
 }
 
 .btn-outline.outline-dark:hover,
-.icon.outline-dark:hover,.btn-outline.outline-dark.pg-state-hover,.btn-outline.outline-dark.pg-state-hover,.icon.outline-dark.pg-state-hover
+.icon.outline-dark:hover,.icon.outline-dark.pg-state-hover,.btn-outline.outline-dark.pg-state-hover,.icon.outline-dark.pg-state-hover
 {
     color: #ffffff;
     background: #2c3e50;
@@ -1815,14 +1818,14 @@ fieldset[disabled] .form-control
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus,.nav-tabs > li.active > a.pg-state-hover,.nav-tabs > li.active > a.pg-state-hover,.nav-tabs > li.active > a.pg-state-focus
+.nav-tabs > li.active > a:focus,.nav-tabs > li.active > a.pg-state-focus,.nav-tabs > li.active > a.pg-state-hover,.nav-tabs > li.active > a.pg-state-focus
 {
     background-color: transparent;
     border-bottom: 4px solid #85d6de !important;
 }
 
 .nav > li > a:hover,
-.nav > li > a:focus,.nav > li > a.pg-state-hover,.nav > li > a.pg-state-hover,.nav > li > a.pg-state-focus
+.nav > li > a:focus,.nav > li > a.pg-state-focus,.nav > li > a.pg-state-hover,.nav > li > a.pg-state-focus
 {
     outline: 0;
 }
@@ -1856,7 +1859,7 @@ fieldset[disabled] .form-control
 .pagination > li > a:hover,
 .pagination > li > span:hover,
 .pagination > li > a:focus,
-.pagination > li > span:focus,.pagination > li > a.pg-state-hover,.pagination > li > a.pg-state-hover,.pagination > li > a.pg-state-focus,.pagination > li > a.pg-state-hover,.pagination > li > span.pg-state-hover,.pagination > li > a.pg-state-focus,.pagination > li > span.pg-state-focus
+.pagination > li > span:focus,.pagination > li > span.pg-state-hover,.pagination > li > span.pg-state-focus,.pagination > li > a.pg-state-hover,.pagination > li > span.pg-state-hover,.pagination > li > a.pg-state-focus,.pagination > li > span.pg-state-focus
 {
     color: #16A085;
 }
@@ -1866,7 +1869,7 @@ fieldset[disabled] .form-control
 .pagination > .active > a:hover,
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
-.pagination > .active > span:focus,.pagination > .active > a.pg-state-hover,.pagination > .active > a.pg-state-hover,.pagination > .active > a.pg-state-focus,.pagination > .active > a.pg-state-hover,.pagination > .active > span.pg-state-hover,.pagination > .active > a.pg-state-focus,.pagination > .active > span.pg-state-focus
+.pagination > .active > span:focus,.pagination > .active > span.pg-state-hover,.pagination > .active > span.pg-state-focus,.pagination > .active > a.pg-state-hover,.pagination > .active > span.pg-state-hover,.pagination > .active > a.pg-state-focus,.pagination > .active > span.pg-state-focus
 {
     background-color: #1ABC9C;
     border-color: #16A085;
@@ -1877,7 +1880,7 @@ fieldset[disabled] .form-control
 .pagination > .disabled > span:focus,
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
-.pagination > .disabled > a:focus,.pagination > .disabled > span.pg-state-hover,.pagination > .disabled > span.pg-state-hover,.pagination > .disabled > a.pg-state-hover,.pagination > .disabled > span.pg-state-hover,.pagination > .disabled > span.pg-state-focus,.pagination > .disabled > a.pg-state-hover,.pagination > .disabled > a.pg-state-focus
+.pagination > .disabled > a:focus,.pagination > .disabled > span.pg-state-focus,.pagination > .disabled > a.pg-state-focus,.pagination > .disabled > span.pg-state-hover,.pagination > .disabled > span.pg-state-focus,.pagination > .disabled > a.pg-state-hover,.pagination > .disabled > a.pg-state-focus
 {
     color: #999;
 }
@@ -1914,7 +1917,7 @@ fieldset[disabled] .form-control
 }
 
 .pager li > a:hover,
-.pager li > a:focus,.pager li > a.pg-state-hover,.pager li > a.pg-state-hover,.pager li > a.pg-state-focus
+.pager li > a:focus,.pager li > a.pg-state-focus,.pager li > a.pg-state-hover,.pager li > a.pg-state-focus
 {
     border: 1px solid #ddd;
 }
@@ -1934,7 +1937,7 @@ fieldset[disabled] .form-control
 .pager .disabled > a,
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
-.pager .disabled > span,.pager .disabled > a.pg-state-hover,.pager .disabled > a.pg-state-hover,.pager .disabled > a.pg-state-focus
+.pager .disabled > span,.pager .disabled > a.pg-state-focus,.pager .disabled > a.pg-state-hover,.pager .disabled > a.pg-state-focus
 {
     color: #999;
     border: 1px solid #ddd;
@@ -1957,7 +1960,6 @@ fieldset[disabled] .form-control
     z-index: 100;
     position: relative;
     background-color: #ffffff;
-    magin: 0;
 }
 
 /*	PATTERN LIBRARY MEDIA QUERIES
