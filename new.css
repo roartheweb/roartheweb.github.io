@@ -4021,7 +4021,7 @@ display: flex;
         justify-content: center;
 }
 
-html, body{
+html, body, .index-body{
   overflow:scroll;
 }
 
