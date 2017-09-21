@@ -3351,12 +3351,12 @@ a.quote_binfo_uploadbtn
     width: 100% !important;
 }
 
-/*.index_body_width
+.index_body_width
 {
     padding-left: 0;
     padding-right: 0;
     width: 100vw;
-}*/
+}
 
 .index_myprocess_title_right_p
 {
@@ -3556,7 +3556,7 @@ display: none;
 .index_pp_image {
 height: 30vh;
 display: flex;
-flex-flow: column;
+flex-flow: column nowrap;
 align-items: center;
 background: #ffc65d;
 justify-content: center;
@@ -3587,27 +3587,4 @@ display: block;
 color: #FFC65D;
 padding: 1px;
 font-weight: 900;
-margin: 2px;
-text-align: left;
-display: inline;
-}
-.index_pp_div_flex {
-display: flex;
-flex-flow: column nowrap;
-align-items: flex-start;
-}
-.index_pp_vert_line {
-width: 1px;
-height: 7em;
-background: black;
-margin: 0 0.5em;
-}
-.index_pp_div_center_flex {
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-body{
-  overflow:auto;
 }

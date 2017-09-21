@@ -3351,12 +3351,12 @@ a.quote_binfo_uploadbtn
     width: 100% !important;
 }
 
-/*.index_body_width
+.index_body_width
 {
     padding-left: 0;
     padding-right: 0;
     width: 100vw;
-}*/
+}
 
 .index_myprocess_title_right_p
 {
@@ -3606,8 +3606,5 @@ margin: 0 0.5em;
 display: flex;
 align-items: center;
 justify-content: center;
-}
-
-body{
-  overflow:auto;
+width: 25vw;
 }
