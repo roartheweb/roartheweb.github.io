@@ -2210,7 +2210,6 @@ div.index_withme_contact-button-container
     position: relative;
     margin-bottom: 8px;
     letter-spacing: -3.5px;
-    text-align: center;
 }
 
 @media (max-width: 650px)
@@ -3217,7 +3216,7 @@ a.quote_binfo_uploadbtn
 }
 
 .index_contactmehead_bg {
-  height: 43vh;
+  height: 70vh;
   min-width: 100vw;
   display: -ms-flexbox;
   -js-display: flex;
@@ -3523,7 +3522,7 @@ position: relative;
 }
 .index_contactme_section {
 position: relative;
-padding: 2vh;
+padding: 5vh;
 }
 .index_dd_browser {
 position: absolute;
@@ -3573,6 +3572,9 @@ line-height: 0;
 }
 .index_pp_section {
 background-color: 'Lato', Helvetica, Arial, sans-serif;
+}
+.index_pp_section {
+padding: 3em 0;
 }
 .index_pp_pright {
 transform: rotate(-45deg);
@@ -3653,14 +3655,14 @@ margin-top: 3em;
 }
 .index_pp_orangebkg {
 background: #d7d7d7;
-padding: 8em 0;
+padding: 4em 0;
 }
 .index_pp_prevproj {
-text-align: center;
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
 }
 .index_pp_previous {
-padding-left: 8px;
-}
-.index_pp_section {
-margin-top: 10vh;
+padding-left: 2px;
 }
