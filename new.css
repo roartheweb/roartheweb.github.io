@@ -3606,8 +3606,8 @@ align-items: center;
 justify-content: center;
 }
 
-body{
-  overflow:auto;
+html, body{
+  overflow:scroll;
 }
 
 .index_pp_vsspa:hover,.index_pp_vsspa.pg-state-hover{
