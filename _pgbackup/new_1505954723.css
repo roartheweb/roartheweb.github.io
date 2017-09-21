@@ -3465,17 +3465,20 @@ z-index: 11;
 }
 .index_dd_container {
 margin: 9em 0;
+display: flex;
 justify-content: center;
 align-items: center;
-padding-top: 2vw;
 }
 .index_dd_p {
 font-size: 1.5em;
 font-family: 'Lato', Helvetica, Arial, sans-serif;
 color: #626262;
+width: 20vw;
 margin: 2em;
 }
 .index_dd_circleicon {
+position: relative;
+z-index: 10;
 background-color: #FFC04C;
 border-radius: 50%;
 height: 144px;

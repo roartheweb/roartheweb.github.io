@@ -3443,7 +3443,7 @@ display: flex;
 flex-flow: column;
 justify-content: space-around;
 align-items: center;
-padding-top: 5vw;
+padding-top: 10vw;
 padding-bottom: 10vw;
 }
 
@@ -3465,17 +3465,18 @@ z-index: 11;
 }
 .index_dd_container {
 margin: 9em 0;
-justify-content: center;
-align-items: center;
-padding-top: 2vw;
+display: flex;
+padding: ;
 }
 .index_dd_p {
 font-size: 1.5em;
 font-family: 'Lato', Helvetica, Arial, sans-serif;
 color: #626262;
-margin: 2em;
+width: 20vw;
 }
 .index_dd_circleicon {
+position: relative;
+z-index: 10;
 background-color: #FFC04C;
 border-radius: 50%;
 height: 144px;

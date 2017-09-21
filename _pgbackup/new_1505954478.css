@@ -2856,8 +2856,6 @@ div.index_withme_contact-button-container
     background-image: repeating-linear-gradient(120deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 1px, transparent 1px, transparent 60px), repeating-linear-gradient(60deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 1px, transparent 1px, transparent 60px), linear-gradient(60deg, rgba(0, 0, 0, 0.02) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.02) 75%, rgba(0, 0, 0, 0.02)), linear-gradient(120deg, rgba(0, 0, 0, 0.02) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.04) 75%, rgba(0, 0, 0, 0.02));
     background-size: 70px 120px;
     padding: 10em;
-    display: flex;
-    justify-content: center;
 }
 
 @media (max-width: 596px)
@@ -3435,7 +3433,7 @@ position: absolute;
 font-family: 'Lato', Helvetica, Arial, sans-serif;
 font-weight: 500;
 color: #767676;
-font-size: 7em;
+font-size: 8em;
 position: relative;
 display: inline;
 }.index_dd_h3_cont {
@@ -3443,7 +3441,7 @@ display: flex;
 flex-flow: column;
 justify-content: space-around;
 align-items: center;
-padding-top: 5vw;
+padding-top: 10vw;
 padding-bottom: 10vw;
 }
 
@@ -3465,17 +3463,18 @@ z-index: 11;
 }
 .index_dd_container {
 margin: 9em 0;
-justify-content: center;
-align-items: center;
-padding-top: 2vw;
+display: flex;
+padding: ;
 }
 .index_dd_p {
 font-size: 1.5em;
 font-family: 'Lato', Helvetica, Arial, sans-serif;
 color: #626262;
-margin: 2em;
+width: 20vw;
 }
 .index_dd_circleicon {
+position: relative;
+z-index: 10;
 background-color: #FFC04C;
 border-radius: 50%;
 height: 144px;

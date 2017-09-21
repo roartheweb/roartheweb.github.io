@@ -3467,7 +3467,6 @@ z-index: 11;
 margin: 9em 0;
 justify-content: center;
 align-items: center;
-padding-top: 2vw;
 }
 .index_dd_p {
 font-size: 1.5em;
@@ -3555,4 +3554,10 @@ align-items: center;
 @media (min-width:920px) {.small {
 display: none;
 }
+}
+.index_dd_col_flex {
+height: 100%;
+position: relative;
+display: flex;
+align-items: center;
 }
