@@ -1,5 +1,24 @@
+.index_mountaindiv_bg {
+  background-image: url('img/pexels-wild_lowres.png');
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 30vh;
+}
+
 .index_reimagine_div_orangebg {
   background-color: #ffc04c;
+
   display: -ms-flexbox;
   -js-display: flex;
   display: flex;
@@ -90,7 +109,7 @@
     left: 0;
     z-index: 1;
     transition: all .5s;
-    background-image: url('img/pexels-wild_lowres.jpg');
+    background-image: url('img/pexels-wild_lowres.png');
     background-position: center;
 }
 /*
@@ -1864,24 +1883,6 @@ div.index_withme_contact-button-container
     {
         padding-right: 0;
     }
-}
-
-.index_mountaindiv_bg {
-  background-image: url('img/pexels-wild_lowres.jpg');
-  background-attachment: fixed;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: -ms-flexbox;
-  -js-display: flex;
-  display: flex;
-  -ms-flex-flow: column wrap;
-      flex-flow: column wrap;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  height: 30vh;
 }
 /*
 @media (max-width: 400px)
