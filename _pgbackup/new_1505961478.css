@@ -44,7 +44,15 @@
 
 /*geat a quote text*/
 
-
+a .quote_nav_a
+{
+    font-weight: 900;
+    font-size: 1.05em;
+    animation-duration: 1.2s;
+    animation-name: changecolor_red;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 
 /*grey backgr and color red the nav buttons upon hover*/
 
@@ -1757,7 +1765,6 @@ div.index_withme_contact-button-container
     margin-top: 3em;
 }
 
-@media (min-width:400px){}
 .index_animation_bg
 {
     width: 300px;
@@ -1769,7 +1776,7 @@ div.index_withme_contact-button-container
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-}
+
 @keyframes play{
   0% {
     opacity: 0;
@@ -3551,19 +3558,4 @@ align-items: center;
 @media (min-width:920px) {.small {
 display: none;
 }
-}
-.index_pp_image {
-height: 30vh;
-display: flex;
-flex-flow: column nowrap;
-align-items: center;
-background: #FFC04C;
-justify-content: center;
-}
-.index_pp_h3 {
-font-family: 'Nothing You Could Do', cursive;
-}
-.index_pp_p {
-color: #979494;
-margin-top: -1.5em;
 }
