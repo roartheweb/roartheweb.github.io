@@ -3642,7 +3642,7 @@ animation: animatedBackground 40s linear infinite;
 .index_pp_image:hover .index_pp_h3,.index_pp_image.pg-state-hover .index_pp_h3{
   color:#efefef;
   font-weight:900;
-  margin-top:-265px;
+  margin-top:-268px;
 }
 @keyframes animatedBackground {
 	from { background-position: 0 0; }
