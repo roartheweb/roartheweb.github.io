@@ -3928,8 +3928,7 @@ font-size: 2em;
 -webkit-animation: dollar_down 3s infinite;
         animation: dollar_down 3s infinite;
 }
-.index_body {
-}
+
 .index_designedby {
 display: -webkit-box;
 display: -ms-flexbox;
@@ -4023,6 +4022,7 @@ display: flex;
 
 html, body, .index-body{
   overflow:scroll;
+-webkit-overflow-scrolling: touch;
 }
 
 .index_pp_vsspa:hover,.index_pp_vsspa.pg-state-hover{
