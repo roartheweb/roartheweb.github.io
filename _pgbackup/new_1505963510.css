@@ -44,15 +44,7 @@
 
 /*geat a quote text*/
 
-a .quote_nav_a
-{
-    font-weight: 900;
-    font-size: 1.05em;
-    animation-duration: 1.2s;
-    animation-name: changecolor_red;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
+
 
 /*grey backgr and color red the nav buttons upon hover*/
 
@@ -78,7 +70,7 @@ a .quote_nav_a
     padding-left: 0;
     padding-right: 0;
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 /*Jumbotron image background*/
@@ -93,7 +85,6 @@ a .quote_nav_a
     width: 100vw;
     height: 100%;
     background-size: cover;
-    overflow: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -125,15 +116,20 @@ a .quote_nav_a
 }
 
 /*zoom-in of the cup background upon hover*/
-/*@media (min-width: 400px)
-{}*/
+@media only screen and (min-width: 400px){
+.jumbotron{
+  overflow: hidden;
+}
+.jumbotron-billboard .img_back{
+    overflow: hidden;
+}
 .jumbotron-billboard:hover .img_back,
 .jumbotron-billboard:focus .img_back,.jumbotron-billboard.pg-state-hover .img_back,.jumbotron-billboard.pg-state-hover .img_back,.jumbotron-billboard.pg-state-focus .img_back
 {
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
-
+}
 /* "...Welcome" text styling*/
 
 .hero_title_text
@@ -1761,6 +1757,7 @@ div.index_withme_contact-button-container
     transform: rotate(180deg);
     margin-top: 3em;
 }
+
 
 .index_animation_bg
 {
@@ -3443,7 +3440,7 @@ display: flex;
 flex-flow: column;
 justify-content: space-around;
 align-items: center;
-padding-top: 10vw;
+padding-top: 5vw;
 padding-bottom: 10vw;
 }
 
@@ -3465,18 +3462,17 @@ z-index: 11;
 }
 .index_dd_container {
 margin: 9em 0;
-display: flex;
-padding: ;
+justify-content: center;
+align-items: center;
+padding-top: 2vw;
 }
 .index_dd_p {
 font-size: 1.5em;
 font-family: 'Lato', Helvetica, Arial, sans-serif;
 color: #626262;
-width: 20vw;
+margin: 2em;
 }
 .index_dd_circleicon {
-position: relative;
-z-index: 10;
 background-color: #FFC04C;
 border-radius: 50%;
 height: 144px;
@@ -3556,4 +3552,19 @@ align-items: center;
 @media (min-width:920px) {.small {
 display: none;
 }
+}
+.index_pp_image {
+height: 30vh;
+display: flex;
+flex-flow: column nowrap;
+align-items: center;
+background: #FFC04C;
+justify-content: center;
+}
+.index_pp_h3 {
+font-family: 'Nothing You Could Do', cursive;
+}
+.index_pp_p {
+color: #979494;
+margin-top: -1.5em;
 }
