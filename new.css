@@ -125,15 +125,15 @@ a .quote_nav_a
 }
 
 /*zoom-in of the cup background upon hover*/
-@media (min-width: 400px)
-{
+/*@media (min-width: 400px)
+{}*/
 .jumbotron-billboard:hover .img_back,
 .jumbotron-billboard:focus .img_back,.jumbotron-billboard.pg-state-hover .img_back,.jumbotron-billboard.pg-state-hover .img_back,.jumbotron-billboard.pg-state-focus .img_back
 {
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
-}
+
 /* "...Welcome" text styling*/
 
 .hero_title_text
