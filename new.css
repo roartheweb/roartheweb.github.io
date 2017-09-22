@@ -4020,10 +4020,7 @@ display: flex;
         justify-content: center;
 }
 
-html, body, .index-body{
-  overflow:scroll;
--webkit-overflow-scrolling: touch;
-}
+
 
 .index_pp_vsspa:hover,.index_pp_vsspa.pg-state-hover{
   background:url("./img/pp/vsspa_preview.png");
