@@ -4133,11 +4133,10 @@ position: relative;
 z-index: 3;
 font-size: 2.2em;
 font-weight: 600;
-color: black;
 }
 .blog_article_col {
 position: relative;
 }
 .blog_article_div {
-padding: 0.8em 0;
+margin: 0.8em 0;
 }

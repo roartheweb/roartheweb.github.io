@@ -920,7 +920,7 @@ h6, .h6
 p
 {
     /*font-family: Helvetica, Arial, sans-serif;*/
-    font-size-adjust: 14px;
+    font-size: 14px;
     line-height: 1.6;
     margin: 15px 0;
     color: #515157;
